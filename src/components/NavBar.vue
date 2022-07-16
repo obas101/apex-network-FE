@@ -1,6 +1,6 @@
 <template>
   <!--NavBar-->
-  <nav class="relative container mx-auto p-6">
+  <nav class="relative container mx-auto py-6">
     <!--flex container-->
 
     <div class="flex items-center justify-between">
@@ -18,7 +18,7 @@
       </div>
 
       <!-- right items -->
-      <div class="hidden md:flex space-x-6">
+      <div class="hidden md:block space-x-6">
         <!--Login -->
         <a class="hover:text-primaryColor mt-3 font-medium" href="">Login</a>
 

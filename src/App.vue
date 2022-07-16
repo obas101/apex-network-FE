@@ -8,9 +8,3 @@ export default {
   components: { NavBar },
 };
 </script>
-<style>
-#App {
-  padding: 0;
-  margin: 0;
-}
-</style>
