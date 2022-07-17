@@ -1,6 +1,6 @@
 <template>
   <!--NavBar-->
-  <nav class="relative container mx-auto py-6">
+  <nav class="testing relative container mx-auto py-6">
     <!--flex container-->
 
     <div class="flex items-center justify-between">
@@ -42,7 +42,10 @@
       </div>
 
       <!-- Hamburger secgtion -->
-      <button class="md:hidden hamburger focus:outline-none block">
+      <button
+        id="menu-btn"
+        class="open md:hidden hamburger focus:outline-none block"
+      >
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
@@ -50,12 +53,12 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="md:">
+    <div class="md:hidden">
       <div
         id="menu"
         class="
           absolute
-          flex flex-col
+          flex-col
           items-center
           self-end
           hidden
@@ -82,5 +85,16 @@
 <script>
 export default {
   name: "NavBar",
+
+  mounted: () => {
+    const btn = document.getElementById("menu-btn");
+    const nav = document.getElementById("menu");
+
+    btn.addEventListener("click", () => {
+      btn.classList.toggle("open");
+      nav.classList.toggle("flex");
+      nav.classList.toggle("hidden");
+    });
+  },
 };
 </script>
