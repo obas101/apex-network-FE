@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # apex-network-FE
 A video chat UI using Vue, Tailwind... Code assessment
 =======
+=======
+>>>>>>> master
 # apex-chatapp-fe
 
 ## Project setup
@@ -21,4 +24,7 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
