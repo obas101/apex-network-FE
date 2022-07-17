@@ -22,22 +22,8 @@
         without any interruption.
       </p>
       <div class="flex justify-center md:justify-start">
-        <a
-          class="
-            p-3
-            px-6
-            pt-3
-            py-4
-            text-white
-            font-medium
-            bg-primaryColor
-            rounded
-            hover:bg-primaryColorLight
-          "
-          href=""
-        >
-          Get started now
-        </a>
+        <!--custom button-->
+        <CustomButton text="Start Chatting Now" />
       </div>
       <div class="flex max-w-sm justify-center md:justify-start">
         <img class="" src="../assets/text.svg" alt="" />
@@ -75,11 +61,11 @@
   >
     <!-- Display item 1 -->
     <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
-      <div>
-        <img class="" src="../assets/video-icon.svg" alt="" />
+      <div class="flex md:flex-none justify-center">
+        <img src="../assets/video-icon.svg" alt="" />
       </div>
-      <div class="space-y-3 px-3">
-        <p class="font-bold">Video messaging</p>
+      <div class="md:space-y-3 space-y-3 px-3 text-center md:text-left">
+        <p class="font-bold mt-3">Video messaging</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
           wish.
@@ -88,11 +74,11 @@
     </div>
     <!-- Display item 2 -->
     <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
-      <div>
+      <div class="flex md:flex-none justify-center">
         <img src="../assets/time-icon.svg" alt="" />
       </div>
-      <div class="space-y-3 px-3">
-        <p class="font-bold">Save your time</p>
+      <div class="md:space-y-3 space-y-3 px-3 text-center md:text-left">
+        <p class="font-bold mt-3">Save your time</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
           wish.
@@ -101,11 +87,11 @@
     </div>
     <!-- Display item 3 -->
     <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
-      <div>
+      <div class="flex md:flex-none justify-center">
         <img src="../assets/safe-icon.svg" alt="" />
       </div>
-      <div class="space-y-3 px-3 text-center">
-        <p class="font-bold">Keep safe and private</p>
+      <div class="md:space-y-3 space-y-3 px-3 text-center md:text-left">
+        <p class="font-bold mt-3">Keep safe and private</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
           wish.
@@ -162,7 +148,7 @@
     "
   >
     <!--left item -->
-    <div class="flex flex-col mb-32 space-y-12 md:w-1/2 p-10">
+    <div class="flex flex-col md:mb-32 space-y-12 md:w-1/2 p-10">
       <h1 class="text-xl font-bold text-center md:text-4xl md:text-left">
         Start selling directly inside conversations
       </h1>
@@ -172,22 +158,8 @@
         don't look even slightly believable.
       </p>
       <div class="flex justify-center md:justify-start">
-        <a
-          class="
-            p-3
-            px-6
-            pt-3
-            py-4
-            text-white
-            font-medium
-            bg-primaryColor
-            rounded
-            hover:bg-primaryColorLight
-          "
-          href=""
-        >
-          Start Chatting Now
-        </a>
+        <!-- Custom Button-->
+        <CustomButton text="Start Chatting Now" />
       </div>
     </div>
     <!-- image -->
@@ -223,13 +195,22 @@
             <h1 class="font-bold text-textColor text-sm">
               “Incredible Experience”
             </h1>
-            <p class="text-sm mt-3 text-secTextColor">
+            <p class="text-xs md:text-sm mt-3 text-secTextColor">
               We had an incredible experience working with Mixland and were
               impressed they made such a big difference in only three weeks. Our
               team is so grateful for the wonderful improvements they made and
               their ability to get familiar with the concept so quickly.
             </p>
-            <div class="flex flex-row mx-auto items-center justify-center mt-9">
+            <div
+              class="
+                flex flex-row
+                mx-auto
+                items-center
+                justify-center
+                mt-14
+                md:mt-9
+              "
+            >
               <img class="w-10 mr-3" src="../assets/womanPhoto.png" alt="" />
               <div class="items-left text-left">
                 <h2 class="text-sm text-white font-normal">Wade Warren</h2>
@@ -248,13 +229,22 @@
             <h1 class="font-bold text-textColor text-sm">
               “Dependable, Responsive, Professional”
             </h1>
-            <p class="text-sm mt-3 text-secTextColor">
+            <p class="text-xs md:text-sm mt-3 text-secTextColor">
               Fermin Apps has collaborated with Mixland team for several
               projects such as Photo Sharing Apps and Custom Social Networking
               Apps. The experience has been pleasant, professional and exceeding
               our expectations. The team is always thinking beyond.
             </p>
-            <div class="flex flex-row mx-auto items-center justify-center mt-9">
+            <div
+              class="
+                flex flex-row
+                mx-auto
+                items-center
+                justify-center
+                mt-14
+                md:mt-9
+              "
+            >
               <img class="w-10 mr-3" src="../assets/esther-howard.png" alt="" />
               <div class="items-left text-left">
                 <h2 class="text-sm text-white font-normal">Esther Howard</h2>
@@ -287,22 +277,7 @@
         Ready to grow your business? Start with Apex, become faster every second
       </h1>
       <div class="flex justify-center my-10">
-        <a
-          class="
-            p-3
-            px-6
-            pt-3
-            py-4
-            text-white
-            font-medium
-            bg-primaryColor
-            rounded
-            hover:bg-primaryColorLight
-          "
-          href=""
-        >
-          Start Chatting Now
-        </a>
+        <CustomButton text="Start Chatting Now" />
       </div>
     </div>
   </div>
@@ -310,11 +285,12 @@
 
 <script>
 // import HelloWorld from "@/components/HelloWorld.vue";
-
+import CustomButton from "../components/forms/CustomButton.vue";
 export default {
   name: "Home",
   components: {
     // HelloWorld,
+    CustomButton,
   },
 };
 </script>

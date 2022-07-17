@@ -23,22 +23,7 @@
         <a class="hover:text-primaryColor mt-3 font-medium" href="">Login</a>
 
         <!--Button-->
-        <a
-          class="
-            p-3
-            px-6
-            pt-3
-            py-4
-            text-white
-            font-medium
-            bg-primaryColor
-            rounded
-            hover:bg-primaryColorLight
-          "
-          href=""
-        >
-          Get Started Free
-        </a>
+        <CustomButton text="Get Started Free" />
       </div>
 
       <!-- Hamburger secgtion -->
@@ -83,8 +68,13 @@
   </nav>
 </template>
 <script>
+import CustomButton from "../components/forms/CustomButton.vue";
+
 export default {
   name: "NavBar",
+  components: {
+    CustomButton,
+  },
 
   mounted: () => {
     const btn = document.getElementById("menu-btn");

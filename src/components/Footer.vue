@@ -10,7 +10,7 @@
         md:flex-row
         items-center
         md:justify-between
-        space-y-10
+        space-y-6
       "
     >
       <!--Logo -->
@@ -44,14 +44,16 @@
         items-center
         md:flex-row md:justify-between
         space-y-12
+        pt-7
+        md:pt-0
       "
     >
       <div class="flex flex-col m:flex-row justify-center">
-        <p class="text-GreyColor">© Copyright 2022, All Rights Reserved</p>
+        <p class="text-GreyColor">&copy; Copyright 2022, All Rights Reserved</p>
       </div>
       <div class="flex flex-row justify-between justify-center space-x-4 pb-12">
         <p class="text-greyColor">Privacy Policy</p>
-        <p class="text-greyColor">Terms & Conditions</p>
+        <p class="text-greyColor">Terms &amp; Conditions</p>
       </div>
     </div>
   </div>
