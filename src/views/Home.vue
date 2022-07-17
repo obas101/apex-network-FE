@@ -36,7 +36,7 @@
           "
           href=""
         >
-          Start Chatting Now
+          Get started now
         </a>
       </div>
       <div class="flex max-w-sm justify-center md:justify-start">
@@ -45,13 +45,17 @@
     </div>
     <!-- image -->
     <div class="md:w-1/2">
-      <img class="md:min-w-full -mt-8" src="../assets/hero-woman.svg" alt="" />
+      <img
+        class="md:min-w-full max-w-md -mt-8"
+        src="../assets/hero-woman.svg"
+        alt=""
+      />
     </div>
   </div>
 
   <!-- Features heading -->
   <div class="mx-auto mt-10">
-    <h1 class="text-center text-3xl font-bold">
+    <h1 class="text-center text-4xl font-bold">
       Features for a better experience
     </h1>
   </div>
@@ -72,11 +76,11 @@
     <!-- Display item 1 -->
     <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
       <div>
-        <img src="../assets/video-icon.svg" alt="" />
+        <img class="" src="../assets/video-icon.svg" alt="" />
       </div>
       <div class="space-y-3 px-3">
-        <p class="font-bold text-sm">Video messaging</p>
-        <p class="text-xs">
+        <p class="font-bold">Video messaging</p>
+        <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
           wish.
         </p>
@@ -100,7 +104,7 @@
       <div>
         <img src="../assets/safe-icon.svg" alt="" />
       </div>
-      <div class="space-y-3 px-3">
+      <div class="space-y-3 px-3 text-center">
         <p class="font-bold">Keep safe and private</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
