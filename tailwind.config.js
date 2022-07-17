@@ -16,6 +16,7 @@ module.exports = {
 				bgSecColor: "#F8F8FA",
 				textColor: "#FD6003",
 				secTextColor: "#383A47",
+				greyColor: "#797B89",
 			},
 			backgroundImage: {
 				"hero-card": "url('/src/assets/Card.svg')",

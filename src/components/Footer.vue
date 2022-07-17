@@ -1,10 +1,11 @@
 <template>
   <!--Footer-->
-  <div class="relative container mx-auto py-6">
+  <div class="relative container mx-auto">
     <!--flex container-->
 
     <div
       class="
+        mb-10
         flex flex-col
         md:flex-row
         items-center
@@ -13,7 +14,7 @@
       "
     >
       <!--Logo -->
-      <div class="pt-2 w-20">
+      <div class="pt-12 w-20">
         <img src="../assets/LOgo1.png" alt="" />
       </div>
       <!--menu items-->
@@ -42,15 +43,15 @@
         flex-col
         items-center
         md:flex-row md:justify-between
-        space-y-16
+        space-y-12
       "
     >
-      <div class="">
-        <p>© Copyright 2022, All Rights Reserved</p>
+      <div class="flex flex-col m:flex-row justify-center">
+        <p class="text-GreyColor">© Copyright 2022, All Rights Reserved</p>
       </div>
-      <div class="-mt-10">
-        <span>Privacy Policy</span>
-        <span>Terms & Cojnditions</span>
+      <div class="flex flex-row justify-between justify-center space-x-4 pb-12">
+        <p class="text-greyColor">Privacy Policy</p>
+        <p class="text-greyColor">Terms & Conditions</p>
       </div>
     </div>
   </div>

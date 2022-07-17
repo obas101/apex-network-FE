@@ -36,8 +36,11 @@
           "
           href=""
         >
-          Get Started Free
+          Start Chatting Now
         </a>
+      </div>
+      <div class="flex max-w-sm justify-center md:justify-start">
+        <img class="" src="../assets/text.svg" alt="" />
       </div>
     </div>
     <!-- image -->
@@ -67,24 +70,24 @@
     "
   >
     <!-- Display item 1 -->
-    <div class="flex flex-col justify-center md:flex-row md:w-4/12">
+    <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
       <div>
         <img src="../assets/video-icon.svg" alt="" />
       </div>
-      <div>
-        <p class="font-bold">Video messaging</p>
-        <p class="text-sm">
+      <div class="space-y-3 px-3">
+        <p class="font-bold text-sm">Video messaging</p>
+        <p class="text-xs">
           This software is very easy for you to manage. You can use it as you
           wish.
         </p>
       </div>
     </div>
     <!-- Display item 2 -->
-    <div class="flex flex-col justify-center md:flex-row md:w-4/12">
+    <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
       <div>
         <img src="../assets/time-icon.svg" alt="" />
       </div>
-      <div>
+      <div class="space-y-3 px-3">
         <p class="font-bold">Save your time</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
@@ -93,11 +96,11 @@
       </div>
     </div>
     <!-- Display item 3 -->
-    <div class="flex flex-col justify-center md:flex-row md:w-4/12">
+    <div class="flex flex-col justify-center md:flex-row md:w-4/12 space-x-2">
       <div>
         <img src="../assets/safe-icon.svg" alt="" />
       </div>
-      <div>
+      <div class="space-y-3 px-3">
         <p class="font-bold">Keep safe and private</p>
         <p class="text-sm">
           This software is very easy for you to manage. You can use it as you
@@ -123,7 +126,7 @@
     >
       <!-- video -->
       <div class="flex p-6 flex-col md:flex-row md:w-1/2">
-        <img src="../assets/woman-video-call.svg" alt="" />
+        <img src="../assets/womanVideo.svg" alt="" />
       </div>
       <div class="md:w-1/2 p-6 space-y-3">
         <h1 class="text-xl font-bold text-center md:text-5xl md:text-left">
