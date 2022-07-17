@@ -279,6 +279,24 @@
       <h1 class="font-bold text-3xl text-center max-w-md">
         Ready to grow your business? Start with Apex, become faster every second
       </h1>
+      <div class="flex justify-center my-10">
+        <a
+          class="
+            p-3
+            px-6
+            pt-3
+            py-4
+            text-white
+            font-medium
+            bg-primaryColor
+            rounded
+            hover:bg-primaryColorLight
+          "
+          href=""
+        >
+          Start Chatting Now
+        </a>
+      </div>
     </div>
   </div>
 </template>
